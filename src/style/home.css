@@ -52,17 +52,22 @@ main .filme-principal {
 }
 
 main .button {
-  background-color: var(--vermelho);
-  padding: 10px;
+  background-color: #e5091485;
+  padding: 15px 30px;
   border-radius: 5px;
   border: solid #14141470 0.5px;
   cursor: pointer;
   margin-left: 10px;
+  color: white;
+  transition: .3s ease all;
+}
+main .button i {
+  margin-right: 8px;
 }
 
 main .button:hover {
   border: solid #e50914 0.5px;
-  background-color: #141414;
+  background-color: #14141475;
   color: white;
   cursor: pointer;
 }
@@ -73,9 +78,12 @@ main .buttons {
 }
 
 main .filme-principal .descriptions {
+  margin: 10px;
   margin-bottom: 90px;
 }
 
 main h3 {
+  margin-top: 15%;
   font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
